@@ -12,10 +12,16 @@
         android:theme="@style/Theme.MenuToolbarDemo"
         tools:targetApi="31">
         <activity
-            android:name=".OptionMenu2"
+            android:name=".DemoMenu3"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OptionMenu2"
+            android:exported="false" />
+        <activity
+            android:name=".DemoMenu4"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

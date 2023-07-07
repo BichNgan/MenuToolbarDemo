@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/app_bar_search3"
+        android:icon="@drawable/search"
+        android:title="Search"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView"></item>
+
+    <item
+        android:id="@+id/setting3"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="Setting"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/share3"
+        android:icon="@drawable/baseline_share_24"
+        android:title="Share"
+        app:showAsAction="withText">
+        <menu>
+            <item
+                android:id="@+id/facebook3"
+                android:icon="@drawable/facebook_icon"
+                android:title="Facebook"
+                app:showAsAction="ifRoom" />
+
+            <item android:id="@+id/Instagram3"
+                android:icon="@drawable/insta"
+                android:title="Intasgram"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+    <item android:id="@+id/Open3"
+        android:icon="@drawable/open"
+        android:title="Open"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/Delete3"
+        android:icon="@drawable/baseline_delete_24"
+        android:title="Delete"
+        app:showAsAction="never" />
+</menu>
