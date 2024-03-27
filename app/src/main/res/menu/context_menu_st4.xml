@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/searchST4"
+        android:icon="@drawable/search"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView" ></item>
+
+    <item android:title="Setting"
+        android:id="@+id/settingSt4"
+        android:icon="@drawable/baseline_settings_24"
+        app:showAsAction="always"
+        />
+    <item android:title="Share" >
+        <menu >
+            <item android:title="Item" />
+            <item android:title="Item" />
+        </menu>
+    </item>
+    <item android:title="Item" />
+    <item android:title="Item" />
+</menu>
